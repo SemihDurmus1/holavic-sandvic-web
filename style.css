@@ -6,7 +6,8 @@
     /* Dark Charcoal */
     --accent: #F7C59F;
     /* Soft Peach */
-    --bg-light: #faf9f8;
+    --bg-light: #ff6b35;
+    /*Default was: faf9f8*/
     --text-dark: #36302d;
     --text-muted: #636E72;
     --white: #FFFFFF;
