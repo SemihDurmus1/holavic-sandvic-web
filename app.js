@@ -1,7 +1,7 @@
 const menuItems = [
     {
         name: "Seloviç Sandviç Menü",
-        description: "Karışık Etli Sandviç, Patates Kızartması, İçecek.",
+        description: "Karışık Etli Sandviç + Patates Kızartması + İçecek (33 cl.)",
         price: "",
         oldPrice: "",
         image: "Photos/selovic-sandvic-menu.webp",
@@ -9,15 +9,15 @@ const menuItems = [
     },
     {
         name: "Seloviç Tost Menü",
-        description: "Ayvalık tostu, patates kızartması, içecek",
+        description: "Ayvalık Tostu + Patates Kızartması + İçecek (33 cl.)",
         price: "360,00 ₺",
         oldPrice: "395,00 ₺",
-        image: "Photos/selovic-tost-menu.webp",
+        image: "Photos/Selovic_Tost.webp",
         category: "Holaviç Menüler"
     },
     {
         name: "Ayvalık Tostu",
-        description: "Ayvalık tost ekmeği, sucuk, salam, kaşar...",
+        description: "Ayvalık tost ekmeğine;Sucuk, Salam, Sosis, Amerikan Salatası, Kaşar Peyniri, Kornişon Turşusu, Domates, Ketçap, Mayonez",
         price: "255,00 ₺",
         oldPrice: "270,00 ₺",
         image: "Photos/tost.webp",
@@ -25,7 +25,7 @@ const menuItems = [
     },
     {
         name: "Kavurmalı Kaşarlı Tost",
-        description: "Ayvalık tost ekmeği, kavurma, kaşar peyniri...",
+        description: "Ayvalık Tost Ekmeğine; Kavurma, Çift Kaşar, Pul Biber, Tereyağ",
         price: "260,00 ₺",
         oldPrice: "280,00 ₺",
         image: "Photos/tost.webp",
@@ -33,7 +33,7 @@ const menuItems = [
     },
     {
         name: "Kavurmalı Tost",
-        description: "Ayvalık tost ekmeği, kavurma, baharatlar...",
+        description: "Ayvalık Tost Ekmeğine; Kavurma, Kaşar Peyniri, Domates, Yeşil Biber, Kekik, Pul Biber, Tereyağ",
         price: "275,00 ₺",
         oldPrice: "290,00 ₺",
         image: "Photos/tost.webp",
@@ -41,7 +41,7 @@ const menuItems = [
     },
     {
         name: "Karışık Etli Sandviç",
-        description: "Jambon, Salam, Yumurta, Cheddar Peyniri...",
+        description: "Jambon, Salam, Cheddar Peyniri, Krem Peyniri, Yumurta, Domates, Kıvırcık",
         price: "200,00 ₺",
         oldPrice: "215,00 ₺",
         image: "Photos/karisik-etli-sandvic.webp",
@@ -49,7 +49,7 @@ const menuItems = [
     },
     {
         name: "Klasik Sandviç",
-        description: "Salam, Kaşar Peyniri, Amerikan Salatası...",
+        description: "Salam, Kaşar Peyniri, Amerikan Salatası, Domates, Sandviç Sosu, Roka",
         price: "180,00 ₺",
         oldPrice: "200,00 ₺",
         image: "Photos/klasik-sandvic.webp",
@@ -57,7 +57,7 @@ const menuItems = [
     },
     {
         name: "Peynirli Jambonlu Sandviç",
-        description: "Jambon, Cheddar Peyniri, Amerikan Salatası...",
+        description: "Jambon, Cheddar Peyniri, Amerikan Salatası, Patates, Acuka, Roka",
         price: "200,00 ₺",
         oldPrice: "215,00 ₺",
         image: "Photos/peynirli-jambonlu-sandvic.webp",
@@ -65,7 +65,7 @@ const menuItems = [
     },
     {
         name: "Sosisli Sandviç",
-        description: "Özel Soslu Dilimlenmiş Sosis, Amerikan Salatası...",
+        description: "Özel Soslu Dilimlenmiş Sosis, Amerikan Salatası, Patates Kızartması, Kornişon Turşusu",
         price: "170,00 ₺",
         oldPrice: "180,00 ₺",
         image: "Photos/sosisli-sandvic.webp",
@@ -73,7 +73,7 @@ const menuItems = [
     },
     {
         name: "Cheddarlı Sosisli Sandviç",
-        description: "Özel Soslu Dilimlenmiş Sosis, Cheddar Peyniri...",
+        description: "Özel Soslu Dilimlenmiş Sosis, Cheddar Peyniri, Patates Kızartması, Krem Peyniri, Kıvırcık",
         price: "180,00 ₺",
         oldPrice: "190,00 ₺",
         image: "Photos/cheddarli-sosisli-sandvic.webp",
@@ -81,7 +81,7 @@ const menuItems = [
     },
     {
         name: "Patso",
-        description: "Patates Kızartması, Ketçap, Mayonez...",
+        description: "Patates Kızartması, Ketçap, Mayonez",
         price: "130,00 ₺",
         oldPrice: "140,00 ₺",
         image: "Photos/patso.webp",
@@ -89,7 +89,7 @@ const menuItems = [
     },
     {
         name: "Peynirli Sandviç",
-        description: "Ezine Peyniri, Kaşar Peyniri, Krem Peynir...",
+        description: "Ezine Peyniri, Kaşar Peyniri, Krem Peyniri, Domates, Salatalık, Biber, Kıvırcık",
         price: "185,00 ₺",
         oldPrice: "200,00 ₺",
         image: "Photos/peynirli-etsiz-sandvic.webp",
@@ -97,7 +97,7 @@ const menuItems = [
     },
     {
         name: "Vegan Sandviç",
-        description: "Yeşil Zeytin, Siyah Zeytin, Domates...",
+        description: "Siyah Zeytin, Yeşil Zeytin, Domates, Salatalık, Roka, Mısır",
         price: "160,00 ₺",
         oldPrice: "180,00 ₺",
         image: "Photos/vegan-sandvic.webp",
@@ -113,7 +113,7 @@ const menuItems = [
     },
     {
         name: "Tatlı Atom Sandviç",
-        description: "Çikolata, Kaymak, Bal, Muz, Çilek...",
+        description: "Çikolata, Kaymak, Bal, Muz, Çilek, Fındık",
         price: "170,00 ₺",
         oldPrice: "180,00 ₺",
         image: "Photos/waffle-sandvic.webp",

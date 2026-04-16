@@ -93,7 +93,7 @@ ul {
 }
 
 .logo img {
-    height: 75px;
+    height: 70px;
     width: auto;
     object-fit: contain;
 }
@@ -434,6 +434,7 @@ footer {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -725,4 +726,4 @@ footer {
         font-weight: 700;
         color: var(--text-muted);
     }
-}
+}
