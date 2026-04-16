@@ -205,6 +205,14 @@ ul {
     box-shadow: 0 10px 20px rgba(255, 107, 53, 0.3);
 }
 
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-white {
+    background: var(--white) !important;
+}
+
 /* Menu Section */
 .menu-grid {
     display: grid;
@@ -311,14 +319,14 @@ ul {
     border-radius: 12px;
     font-size: 1rem;
     font-weight: 700;
+}
 
+.btn-sm:hover {
+    filter: brightness(1.1);
+}
 
-    .btn-sm:hover {
-        filter: brightness(1.1);
-    }
-
-    /* Footer */
-    footer {
+/* Footer */
+footer {
         background: var(--secondary);
         color: var(--white);
         padding: 50px 0;
