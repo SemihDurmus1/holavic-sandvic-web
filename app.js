@@ -1,9 +1,9 @@
 const menuItems = [
     {
         name: "Seloviç Sandviç Menü",
-        description: "Karışık Etli Sandviç + Patates Kızartması",
-        price: "320,00 ₺",
-        oldPrice: "350,00 ₺",
+        description: "Karışık Etli Sandviç, Patates Kızartması, İçecek.",
+        price: "",
+        oldPrice: "",
         image: "Photos/selovic-sandvic-menu.webp",
         category: "Holaviç Menüler"
     },
@@ -141,13 +141,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h3 style="flex:1;">${item.name}</h3>
                         <span style="background:var(--primary); color:white; padding: 2px 8px; border-radius: 10px; font-size: 0.8rem; margin-left:10px; white-space:nowrap;">${item.category}</span>
                     </div>
-                    <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.5rem; min-height: 45px;">${item.description}</p>
-                    <div class="card-footer">
-                        <div>
-                            <span style="text-decoration: line-through; color: #999; font-size: 0.9rem; margin-right: 5px;">${item.oldPrice}</span>
-                            <span style="font-size: 1.25rem; font-weight: 700; color: var(--secondary);">${item.price}</span>
-                        </div>
-                        <button class="btn-sm" onclick="window.open('https://wa.me/c/905374229898', '_blank')">+</button>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.5rem;">${item.description}</p>
+                    <div class="card-footer" style="justify-content: flex-end;">
+                        <button class="btn-sm" onclick="window.open('https://wa.me/c/905374229898', '_blank')">Sipariş Ver</button>
                     </div>
                 </div>
             `;
